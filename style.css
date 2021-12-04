@@ -1,0 +1,251 @@
+/* Global */
+body {
+	font-family: Dosis;
+	font-size: 3vw;
+	background-color: rgb(86, 145, 122,0.8);
+	color: lightblue;
+	margin:  0px;
+	text-align: center;
+}
+
+h1 {
+	font-family: Nunito;
+	font-size: 8vw;
+	color: rgb(65, 142, 163);
+	letter-spacing:15px ;
+	padding-top: 0px;
+	text-shadow: 0px 0px 80px lightblue;
+	text-align: center;
+}
+
+h2{
+	font-family: Dosis;
+	font-size: 4.5vw;
+	color: rgb(154, 226, 237);
+	text-shadow: 0px 0px 30px #DC9700;
+}
+
+h3 {
+	font-family: Nunito;
+	font-size: 3.5vw;
+	color: 	color: rgb(65, 142, 163);
+	text-shadow: 0px 0px 30px #DC9700;
+}
+
+h4 {
+	font-family: Dosis;
+	font-size: 2vw;
+	color: skyblue;
+}
+
+h5 {
+	font-family: Nunito;
+	font-size: 3vw;
+	color: skyblue;
+	text-shadow: 0px 0px 30px #DC9700;
+}
+
+p {
+	font-family: Nunito;
+	font-size: 1.5vw;
+	color: white;
+	padding-top: 0px;
+	padding-bottom: 20px;
+}
+
+a,li { 
+	text-decoration: none;
+	color: skyblue;
+	font-size: 1.3vw;
+}
+
+a:hover,li:hover {
+	color: steelblue;
+}
+
+/* Section menu */
+
+
+.btn-aix,.btn-avignon,.btn-baux, .btn-cassis, .btn-marseille {
+	font-family: Dosis;
+	padding:  15px 0px;
+	color:  white;
+	font-size: 2vw;
+	margin-top: 5px;
+}
+
+.cities {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-gap:  1px;
+	text-align: center;
+	height: 5vw;
+	border: solid #DC9700;
+}
+
+
+.banner {
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: white;
+	box-shadow: 0px 0px 40px rgb(86, 145, 122);
+}
+
+/* Section corps */
+
+.background{
+	background-image: url(images/tree.jpg);
+	background-size: 120vw;
+	background-position: center;
+	padding-bottom: 20px;
+}
+
+.container {
+	width: 70vw;
+	padding-top: 0px;	
+	padding: 12.5vw;
+
+}
+
+.star img {
+	width: 5vw;
+}
+
+.christmas-market {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-gap: 45px;
+	background-color: rgb(86, 145, 122,0.8);
+	font-size: 1.5vw;
+	text-align: center;
+	width: 70vw;
+	padding: 24px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px green;
+}
+
+.christmas-market-img img {
+	width: 25vw;
+	height: 30vw;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+.gastronomy {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-gap: 45px;
+	background-color: rgb(86, 145, 122,0.8);
+	font-size: 1.5vw;
+	text-align: center;
+	width: 70vw;
+	padding: 24px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px green;
+}
+
+.gastronomy-img img {
+	width: 25vw;
+	height: 30vw;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+.traditions {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-gap: 45px;
+	background-color: rgb(86, 145, 122,0.8);
+	font-size: 1.5vw;
+	text-align: center;
+	width: 70vw;
+	padding: 24px;
+	padding-bottom: 40px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px green;
+}
+
+.traditions-img img {
+	width: 25vw;	
+	height: 30vw;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+.button {
+	border: solid #DC9700;
+	padding: 10px;
+	background-color: rgb(107, 201, 227);
+	border-radius: 5px;
+	font-family: Dosis;
+	font-size: 2vw;
+	color: white;
+	width: 5vw;
+	height: 5vh;
+	text-align: center;
+}
+
+.button:hover {
+	background-color:rgb(107, 201, 227,0.5) ;
+}
+
+.videos {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 2vw;
+	justify-items: center;
+	margin-left: 2.5vw;
+	margin-top: 5vh;
+}
+
+/* Footer */
+
+.footer {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 45px;
+	background-color: rgb(86, 145, 122,0.8);
+	text-align: center;
+	padding-left: 12.5vw;
+	padding-right: 12.5vw;
+	border-style: dashed;
+	border-color: #DC9700;
+	border-width: 0.4vw;
+}
+
+.guide {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 0px;
+	text-align: left;
+	font-size: 1.8vw;
+	color: skyblue;
+	line-height: 2.8vw;
+}
+
+.guide img {
+	width: 13vw;
+	justify-self: right;
+	padding-right: 30px;
+}
+
+.network-btn {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 0px;
+	text-align: left;
+	font-size: 1.5vw;
+	color: skyblue;
+}
+
+.network-btn img {
+	width: 3.5vw;
+	justify-self: right;
+	padding-right: 30px;
+}
+
+
